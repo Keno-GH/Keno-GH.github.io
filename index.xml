@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fabricación Digital on Nombre Alumno</title>
-    <link>https://tallerfabricacion.github.io/temaBlack/</link>
+    <link>Keno-GH.github.io/</link>
     <description>Recent content in Fabricación Digital on Nombre Alumno</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 17 Jun 2020 19:30:08 +1000</lastBuildDate>
     
-	<atom:link href="https://tallerfabricacion.github.io/temaBlack/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="Keno-GH.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Instalar Tema</title>
-      <link>https://tallerfabricacion.github.io/temaBlack/docs/instalar-tema/</link>
+      <link>Keno-GH.github.io/docs/instalar-tema/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://tallerfabricacion.github.io/temaBlack/docs/instalar-tema/</guid>
+      <guid>Keno-GH.github.io/docs/instalar-tema/</guid>
       <description>Tutorial de intalación del tema utilizando el Framework Hugo.</description>
     </item>
     
     <item>
       <title>Configuración</title>
-      <link>https://tallerfabricacion.github.io/temaBlack/docs/configuracion/</link>
+      <link>Keno-GH.github.io/docs/configuracion/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://tallerfabricacion.github.io/temaBlack/docs/configuracion/</guid>
+      <guid>Keno-GH.github.io/docs/configuracion/</guid>
       <description>Tutorial de configuración básica del menú y otros elementos del tema.</description>
     </item>
     
     <item>
       <title>Ejemplo Shortcodes</title>
-      <link>https://tallerfabricacion.github.io/temaBlack/docs/ejemplo/</link>
+      <link>Keno-GH.github.io/docs/ejemplo/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://tallerfabricacion.github.io/temaBlack/docs/ejemplo/</guid>
+      <guid>Keno-GH.github.io/docs/ejemplo/</guid>
       <description>Uso de los Shortcodes para agregar contenido en el sitio de documentación.</description>
     </item>
     
     <item>
       <title>Ejemplos Markdown</title>
-      <link>https://tallerfabricacion.github.io/temaBlack/docs/markdown/</link>
+      <link>Keno-GH.github.io/docs/markdown/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://tallerfabricacion.github.io/temaBlack/docs/markdown/</guid>
+      <guid>Keno-GH.github.io/docs/markdown/</guid>
       <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
     </item>
     
     <item>
       <title>Objetivos del Curso</title>
-      <link>https://tallerfabricacion.github.io/temaBlack/docs/objetivos/</link>
+      <link>Keno-GH.github.io/docs/objetivos/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://tallerfabricacion.github.io/temaBlack/docs/objetivos/</guid>
+      <guid>Keno-GH.github.io/docs/objetivos/</guid>
       <description>Objetivos general y específico del Taller del segundo trimestre de 2020.</description>
     </item>
     
