@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fabricación Digital on Keno Creation</title>
-    <link>keno-gh.github.io/docs/</link>
+    <link>https://keno-gh.github.io/docs/</link>
     <description>Recent content in Fabricación Digital on Keno Creation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate>
     
-	<atom:link href="keno-gh.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://keno-gh.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tutoriales</title>
-      <link>keno-gh.github.io/docs/tutoriales/</link>
+      <link>https://keno-gh.github.io/docs/tutoriales/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>keno-gh.github.io/docs/tutoriales/</guid>
+      <guid>https://keno-gh.github.io/docs/tutoriales/</guid>
       <description>Tutorial de configuración básica del menú y otros elementos del tema.</description>
     </item>
     
     <item>
       <title>Encargo 02: Planimetrias</title>
-      <link>keno-gh.github.io/docs/encargo_02_planimetrias/</link>
+      <link>https://keno-gh.github.io/docs/encargo_02_planimetrias/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>keno-gh.github.io/docs/encargo_02_planimetrias/</guid>
+      <guid>https://keno-gh.github.io/docs/encargo_02_planimetrias/</guid>
       <description>Se pide editar y subir a página planimetrías de silla siguiendo los tutoriales
  Imagenes: Galería:    Planimetria 01
       Planimetria 02
