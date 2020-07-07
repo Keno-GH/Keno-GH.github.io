@@ -12,48 +12,24 @@
     
     
     <item>
-      <title>Instalar Tema</title>
-      <link>Keno-GH.github.io/docs/instalar-tema/</link>
+      <title>Tutoriales</title>
+      <link>Keno-GH.github.io/docs/tutoriales/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>Keno-GH.github.io/docs/instalar-tema/</guid>
-      <description>Tutorial de intalación del tema utilizando el Framework Hugo.</description>
-    </item>
-    
-    <item>
-      <title>Configuración</title>
-      <link>Keno-GH.github.io/docs/configuracion/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>Keno-GH.github.io/docs/configuracion/</guid>
+      <guid>Keno-GH.github.io/docs/tutoriales/</guid>
       <description>Tutorial de configuración básica del menú y otros elementos del tema.</description>
     </item>
     
     <item>
-      <title>Ejemplo Shortcodes</title>
-      <link>Keno-GH.github.io/docs/ejemplo/</link>
+      <title>Encargo 02: Planimetrias</title>
+      <link>Keno-GH.github.io/docs/encargo_02_planimetrias/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>Keno-GH.github.io/docs/ejemplo/</guid>
-      <description>Uso de los Shortcodes para agregar contenido en el sitio de documentación.</description>
-    </item>
-    
-    <item>
-      <title>Ejemplos Markdown</title>
-      <link>Keno-GH.github.io/docs/markdown/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>Keno-GH.github.io/docs/markdown/</guid>
-      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
-    </item>
-    
-    <item>
-      <title>Objetivos del Curso</title>
-      <link>Keno-GH.github.io/docs/objetivos/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>Keno-GH.github.io/docs/objetivos/</guid>
-      <description>Objetivos general y específico del Taller del segundo trimestre de 2020.</description>
+      <guid>Keno-GH.github.io/docs/encargo_02_planimetrias/</guid>
+      <description>Se pide editar y subir a página planimetrías de silla siguiendo los tutoriales
+ Imagenes: Galería:    Planimetria 01
+      Planimetria 02
+      Planimetria 03</description>
     </item>
     
   </channel>
