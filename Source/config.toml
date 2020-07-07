@@ -4,6 +4,7 @@ title = "Keno Creation"
 themesDir = "themes"
 theme = "hugo-whisper-theme"
 canonifyURLs = true
+relativeurls = true
 
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
