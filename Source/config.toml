@@ -1,6 +1,6 @@
-baseURL = "Keno-GH.github.io"
+baseURL = "keno-gh.github.io"
 languageCode = "en-us"
-title = "Nombre Alumno"
+title = "Keno Creation"
 themesDir = "themes"
 theme = "hugo-whisper-theme"
 
