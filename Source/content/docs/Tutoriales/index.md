@@ -1,10 +1,207 @@
 ---
-title: 'Ejemplos Markdown'
+title: 'Tutoriales'
 date: 2020-06-17T19:30:08+10:00
 draft: false
-weight: 5
-summary: Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.
+weight: 3
+summary: Tutorial de configuración básica del menú y otros elementos del tema.
 ---
+
+# Configuracion
+
+<!-- Contenido del Post -->
+
+## Highlighting de Código
+
+Este tema utiliza el resaltado de código incorporado que se incluye con Hugo. https://gohugo.io/content-management/syntax-highlighting/
+
+Puede insertar fragmentos de código en cualquier Markdown utilizando la sintaxis de highlighting, es decir:
+
+````
+```
+insertar código acá
+```
+````
+
+Puede especificar el lenguaje de programación agregando una declaración después de los backticks
+
+````
+```html
+insertar código acá
+```
+````
+
+### Opciones de resaltado de código 
+
+Las opciones de resaltado de código se configuran en `config.toml`
+
+```toml
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+```
+
+## Menú principal
+
+Configure el menú principal editando el `config.toml`
+
+```toml
+[[menu.main]]
+    name = "Inicio"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Documentación"
+    url = "/docs/"
+    weight = 2
+```
+
+# Instalar Tema
+
+<!-- Contenido del Post -->
+
+## Crear un nuevo sitio Hugo
+
+```
+hugo new site misitio
+```
+
+Esto creará un nuevo sitio de Hugo en la carpeta `misitio`.
+
+## Instalar sitio Hugo
+
+Copie o clone con git el sitio en la carpeta carpeta `misitio`.
+
+## Ejecutar Hugo
+
+Para el desarrollo de manera local, ejecute el servidor incorporado con Hugo utilizando la terminal de comandos.
+
+```
+hugo server
+```
+Ahora ingresa a [`localhost:1313`](http://localhost:1313) en la barra de URL de su navegador.
+
+Después de editar el contenido y generar el sitio web, obtenga el compilado de archivos web a través del siguiente comando en la terminal. Este comando generará una carpeta `public` al interior de la carpeta del sitio web.
+
+```
+hugo
+```
+
+# Ejemplo Shortcodes
+
+<!-- Ejemplo Shortcodes -->
+
+# Contenido Shortcodes
+
+- [Iframe de Fusion 360](#agregar-iframe-de-fusion-360)
+- [Agregar Video Local MP4](#agregar-video-local-mp4)
+- [Galería Fotos Lightbox](#agregar-galería-fotos-lightbox)
+- [Botón de Descarga](#agregar-botón-de-descarga)
+
+<!-- Agregar Iframe de Fusion 360 -->
+---
+
+### Agregar Iframe de Fusion 360
+
+{{< iframe-fusion >}}
+
+##### Código `Iframe de Fusion 360` Markdown 
+
+```
+{{</* iframe-fusion */>}}
+```
+
+##### Código `Iframe de Fusion 360` HTML Shortcode 
+
+```
+<div>
+    <iframe 
+    src="https://myhub.autodesk360.com/ue2ce4e3a/shares/public/SH56a43QTfd62c1cd968edbffd1ceafd2764?mode=embed" 
+    width="100%" 
+    height="450" 
+    allowfullscreen="true" 
+    webkitallowfullscreen="true" 
+    mozallowfullscreen="true"  
+    frameborder="0">
+    </iframe>    
+</div>
+```
+
+[[Volver Arriba]](#contenido-shortcodes)
+
+<!-- Agregar Video Local MP4 -->
+---
+
+### Agregar Video Local MP4
+
+{{< video-local src="video.mp4" >}}
+
+##### Código `Video Local MP4` Markdown 
+
+```
+{{</* video-local src="video.mp4" */>}}
+```
+
+##### Código `Video Local MP4` HTML Shortcode 
+
+```
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/{{ index .Params "src" }}"  type="video/mp4">
+    </video>
+</div>
+```
+
+[[Volver Arriba]](#contenido-shortcodes)
+ 
+<!-- Agregar Galería Fotos Lightbox -->
+---
+
+### Agregar Galería Fotos Lightbox
+
+{{< gallery dir="/img/galeria/" />}} {{< load-photoswipe >}}
+
+##### Código `Galería Fotos Lightbox` Markdown 
+
+```
+{{</* gallery dir="/img/galeria/" />}} {{< load-photoswipe */>}}
+```
+
+[[Volver Arriba]](#contenido-shortcodes)
+
+<!-- Agregar Botón de Descarga -->
+---
+
+### Agregar Botón de Descarga
+
+{{< boton-descargar src="documento.pdf" >}}
+
+##### Código `Botón de Descarga` Markdown 
+
+```
+{{</* boton-descargar src="documento.pdf" */>}}
+```
+
+##### Código `Botón de Descarga` HTML Shortcode 
+
+```
+<a class="face-button" href="/descargas/{{ index .Params "src" }}" download>
+    <div class="face-primary">
+        <span class="icon fa fa-cloud"></span>
+        Descargar
+    </div>
+    <div class="face-secondary">
+        <span class="icon fa fa-hdd-o"></span>
+    </div>
+</a>
+```
+
+[[Volver Arriba]](#contenido-shortcodes)
+ 
+# Ejemplos Markdowns
 
 <!-- Ejemplos de códigos Markdown -->
 
