@@ -31,11 +31,11 @@ Para esta parte seguí el tutorial al pie de la letra. Grabé este procedimiento
 
 Parte de este proceso fue modificar las fresas para que tuvieran la longitud adecuada para este trabajo.
 
-![Fresa1](/img/Mecanizado_2.5D/Fresa1.png)
+![Fresa1](/img/Mecanizado_2.5D/fresa1.png)
 
 También se debe usar una fresa de punta redonda para las terminaciones.
 
-![Fresa2](/img/Mecanizado_2.5D/Fresa2.png)
+![Fresa2](/img/Mecanizado_2.5D/fresa2.png)
 
 ### Cara inferior
 
