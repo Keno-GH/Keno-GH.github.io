@@ -42,5 +42,15 @@
  Video:    </description>
     </item>
     
+    <item>
+      <title>Encargo 04: Mecanizado 2.5D</title>
+      <link>https://keno-gh.github.io/docs/encargo_04_mecanizado_2.5d/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://keno-gh.github.io/docs/encargo_04_mecanizado_2.5d/</guid>
+      <description>Se nos solicita hacer un mecanizado 2.5D al respaldo de la silla que trabajamos en el encargo del mecanizado simple.
+ ¿Qué es el mecanizado 2.5D? El mecanizado 2.5D es un tipo de mecanizado donde la maquina se mueve libremente por el eje X e Y, pero el eje Z no permite rotación, solo cambios de elevación.</description>
+    </item>
+    
   </channel>
 </rss>
