@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fabricación Digital on Keno Creation</title>
+    <link>https://keno-gh.github.io/docs/</link>
+    <description>Recent content in Fabricación Digital on Keno Creation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate>
+    
+	<atom:link href="https://keno-gh.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tutoriales</title>
+      <link>https://keno-gh.github.io/docs/tutoriales/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://keno-gh.github.io/docs/tutoriales/</guid>
+      <description>Tutorial de configuración básica del menú y otros elementos del tema.</description>
+    </item>
+    
+    <item>
+      <title>Encargo 02: Planimetrias</title>
+      <link>https://keno-gh.github.io/docs/encargo_02_planimetrias/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://keno-gh.github.io/docs/encargo_02_planimetrias/</guid>
+      <description>Se pide editar y subir a página planimetrías de silla siguiendo los tutoriales
+ Imagenes: Galería:    Planimetria 01
+      Planimetria 02
+      Planimetria 03</description>
+    </item>
+    
+    <item>
+      <title>Encargo 03: Mecanizado Simple</title>
+      <link>https://keno-gh.github.io/docs/encargo_03_mecanizado_simple/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://keno-gh.github.io/docs/encargo_03_mecanizado_simple/</guid>
+      <description>Se pide utilizar Fusion 360 para preparar maquina de cortado con fresa para una silla y grabar el cortado.
+ Video:    </description>
+    </item>
+    
+    <item>
+      <title>Encargo 04: Mecanizado 2.5D</title>
+      <link>https://keno-gh.github.io/docs/encargo_04_mecanizado_2.5d/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://keno-gh.github.io/docs/encargo_04_mecanizado_2.5d/</guid>
+      <description>Se nos solicita hacer un mecanizado 2.5D al respaldo de la silla que trabajamos en el encargo del mecanizado simple.
+ ¿Qué es el mecanizado 2.5D? El mecanizado 2.5D es un tipo de mecanizado donde la maquina se mueve libremente por el eje X e Y, pero el eje Z no permite rotación, solo cambios de elevación.</description>
+    </item>
+    
+  </channel>
+</rss>
