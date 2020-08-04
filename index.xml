@@ -60,5 +60,15 @@
  ¿Qué es el mecanizado 2.5D? El mecanizado 2.5D es un tipo de mecanizado donde la maquina se mueve libremente por el eje X e Y, pero el eje Z no permite rotación, solo cambios de elevación.</description>
     </item>
     
+    <item>
+      <title>Encargo 05: Macetero</title>
+      <link>https://keno-gh.github.io/docs/encargo_05_macetero/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://keno-gh.github.io/docs/encargo_05_macetero/</guid>
+      <description>En este encargo se pide experimentar y crear un macetero biodegradable con materiales en casa.
+ Introduccion Este trabajo se basó en experimentación y por eso cometí errores en general que evitaré en mi proxima aproximación.</description>
+    </item>
+    
   </channel>
 </rss>
