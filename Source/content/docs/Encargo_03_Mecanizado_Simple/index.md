@@ -29,6 +29,10 @@ Acá cabe destacar que el contour debe ser configurado para dejar "orejas" unien
 ![draw5](/img/Mecanizado_Simple/draw-05.png)
 ![draw6](/img/Mecanizado_Simple/draw-06.png)
 
+## Iframe
+
+{{< iframe-fusion >}}
+
 ## Video de mecanizado
 
 {{< video-local src="video_mecanizado_simple.mp4" >}}
