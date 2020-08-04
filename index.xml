@@ -21,6 +21,16 @@
     </item>
     
     <item>
+      <title>Bonus 01: Mecanizado Mesa</title>
+      <link>https://keno-gh.github.io/docs/bonus_01_mesa/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://keno-gh.github.io/docs/bonus_01_mesa/</guid>
+      <description>En este bonus se pide generar un mecanizado a un modelo 3D dado o un modelo extra y generar planimetrías.
+ Introduccion Este trabajo fue demasiado desafiante para mi habilidad actual, ya que no pude alinear correctamente la mesa con el eje X sin que esta explotara.</description>
+    </item>
+    
+    <item>
       <title>Encargo 02: Planimetrias</title>
       <link>https://keno-gh.github.io/docs/encargo_02_planimetrias/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
