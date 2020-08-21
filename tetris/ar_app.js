@@ -183,7 +183,7 @@ function init() {
                 .load('Tetris-C.obj', function (group) {
                     RhinoMesh = group.children[0];
                     RhinoMesh.material.side = THREE.DoubleSide;
-                    RhinoMesh.scale.set(0.25, 0.25, 0.25);
+                    RhinoMesh.scale.set(0.1, 0.1, 0.1);
                     RhinoMesh.castShadow = true;
                     RhinoMesh.receiveShadow = true;
 
