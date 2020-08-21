@@ -183,7 +183,7 @@ function init() {
                 .load('Tetris-C.obj', function (group) {
                     RhinoMesh = group.children[0];
                     RhinoMesh.material.side = THREE.DoubleSide;
-                    RhinoMesh.scale.set(0.1, 0.1, 0.1);
+                    RhinoMesh.scale.set(0.03, 0.03, 0.03);
                     RhinoMesh.castShadow = true;
                     RhinoMesh.receiveShadow = true;
 
@@ -202,7 +202,7 @@ function init() {
                 .load('Tetris-InvS.obj', function (group) {
                     RhinoMesh2 = group.children[0];
                     RhinoMesh2.material.side = THREE.DoubleSide;
-                    RhinoMesh2.scale.set(0.25, 0.25, 0.25);
+                    RhinoMesh2.scale.set(0.03, 0.03, 0.03);
                     RhinoMesh2.castShadow = true;
                     RhinoMesh2.receiveShadow = true;
 
@@ -221,7 +221,7 @@ function init() {
              .load('Tetris-L.obj', function (group) {
                  RhinoMesh3 = group.children[0];
                  RhinoMesh3.material.side = THREE.DoubleSide;
-                 RhinoMesh3.scale.set(0.25, 0.25, 0.25);
+                 RhinoMesh3.scale.set(0.03, 0.03, 0.03);
                  RhinoMesh3.castShadow = true;
                  RhinoMesh3.receiveShadow = true;
 
@@ -238,7 +238,7 @@ function init() {
              .load('Tetris-S.obj', function (group) {
                  RhinoMesh4 = group.children[0];
                  RhinoMesh4.material.side = THREE.DoubleSide;
-                 RhinoMesh4.scale.set(0.25, 0.25, 0.25);
+                 RhinoMesh4.scale.set(0.03, 0.03, 0.03);
                  RhinoMesh4.castShadow = true;
                  RhinoMesh4.receiveShadow = true;
 
@@ -255,7 +255,7 @@ function init() {
                 .load('Tetris-T.obj', function (group) {
                     RhinoMesh5 = group.children[0];
                     RhinoMesh5.material.side = THREE.DoubleSide;
-                    RhinoMesh5.scale.set(0.25, 0.25, 0.25);
+                    RhinoMesh5.scale.set(0.03, 0.03, 0.03);
                     RhinoMesh5.castShadow = true;
                     RhinoMesh5.receiveShadow = true;
 
