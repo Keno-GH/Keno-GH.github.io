@@ -3,7 +3,7 @@ title: 'Encargo 03: Mecanizado 2.5D'
 date: 2020-06-17T19:30:08+10:00
 draft: false
 weight: 4
-summary: 
+summary: Se nos solicita hacer un mecanizado 2.5D al respaldo de la silla que trabajamos en el encargo del mecanizado simple.
 ---
 
 Se nos solicita hacer un mecanizado 2.5D al respaldo de la silla que trabajamos en el encargo del mecanizado simple.

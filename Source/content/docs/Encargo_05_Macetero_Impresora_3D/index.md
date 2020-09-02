@@ -3,7 +3,7 @@ title: 'Encargo 05: Molde Macetero'
 date: 2020-06-17T19:30:08+10:00
 draft: false
 weight: 4
-summary: 
+summary: En este encargo grupal creamos un molde imprimible para hacer maceteros con materiales organicos.
 ---
 
 En este encargo grupal creamos un molde imprimible para hacer maceteros con materiales organicos.

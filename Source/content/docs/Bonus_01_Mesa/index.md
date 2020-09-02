@@ -3,7 +3,7 @@ title: 'Bonus 01: Mecanizado Mesa'
 date: 2020-06-17T19:30:08+10:00
 draft: false
 weight: 4
-summary: 
+summary: En este bonus se pide generar un mecanizado a un modelo 3D dado o un modelo extra y generar planimetrías.
 ---
 
 En este bonus se pide generar un mecanizado a un modelo 3D dado o un modelo extra y generar planimetrías.

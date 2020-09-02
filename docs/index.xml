@@ -26,8 +26,7 @@
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://keno-gh.github.io/docs/bonus_01_mesa/</guid>
-      <description>En este bonus se pide generar un mecanizado a un modelo 3D dado o un modelo extra y generar planimetrías.
- Introduccion Este trabajo fue demasiado desafiante para mi habilidad actual, ya que no pude alinear correctamente la mesa con el eje X sin que esta explotara.</description>
+      <description>En este bonus se pide generar un mecanizado a un modelo 3D dado o un modelo extra y generar planimetrías.</description>
     </item>
     
     <item>
@@ -36,8 +35,7 @@
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://keno-gh.github.io/docs/encargo_01_planimetrias/</guid>
-      <description>Se pide editar y subir a página planimetrías de silla siguiendo los tutoriales
- Diseño: Silla de Eames La silla de la que se hace la planimetría es del grupo de diseñadores Eames.</description>
+      <description>Se pide editar y subir a página planimetrías de silla siguiendo los &lt;a href=&#34;https://tallerfabricacion.github.io/docs/tutoriales-planimetr%C3%ADas/&#34;&gt;tutoriales&lt;/a&gt;</description>
     </item>
     
     <item>
@@ -46,8 +44,7 @@
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://keno-gh.github.io/docs/encargo_02_mecanizado_simple/</guid>
-      <description>Se pide utilizar Fusion 360 para preparar maquina de cortado con fresa para una silla y grabar el cortado.
- Introducción El mecanizado que trabajamos acá se basa en usar una fresa que corta las piezas en un mecanizado con un eje Z que cambia solo en &amp;ldquo;pisos&amp;rdquo; (en vez de un gradiente).</description>
+      <description>Se pide utilizar Fusion 360 para preparar maquina de cortado con fresa para una silla y grabar el cortado.</description>
     </item>
     
     <item>
@@ -56,8 +53,7 @@
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://keno-gh.github.io/docs/encargo_03_mecanizado_2.5d/</guid>
-      <description>Se nos solicita hacer un mecanizado 2.5D al respaldo de la silla que trabajamos en el encargo del mecanizado simple.
- ¿Qué es el mecanizado 2.5D? El mecanizado 2.5D es un tipo de mecanizado donde la maquina se mueve libremente por el eje X e Y, pero el eje Z no permite rotación, solo cambios de elevación.</description>
+      <description>Se nos solicita hacer un mecanizado 2.5D al respaldo de la silla que trabajamos en el encargo del mecanizado simple.</description>
     </item>
     
     <item>
@@ -66,8 +62,7 @@
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://keno-gh.github.io/docs/encargo_04_biomateriales/</guid>
-      <description>En este encargo se pide experimentar y crear un macetero biodegradable con materiales en casa.
- Introduccion Este trabajo se basó en experimentación y por eso cometí errores en general que evitaré en mi proxima aproximación.</description>
+      <description>En este encargo se pide experimentar y crear un macetero biodegradable con materiales en casa.</description>
     </item>
     
     <item>
@@ -76,9 +71,7 @@
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://keno-gh.github.io/docs/encargo_05_macetero_impresora_3d/</guid>
-      <description>En este encargo grupal creamos un molde imprimible para hacer maceteros con materiales organicos.
- Molde 1: Jiffy Jiffys los grandes aliados de los cultivadores.
-Se trata de unos discos de turba o de coco prensado, que hay en varios tamaños y que se usan para distintas cosas dentro del cultivo, sobretodo para germinar semillas o para enraizar esquejes.</description>
+      <description>En este encargo grupal creamos un molde imprimible para hacer maceteros con materiales organicos.</description>
     </item>
     
   </channel>

@@ -3,7 +3,7 @@ title: 'Encargo 02: Mecanizado Simple'
 date: 2020-06-17T19:30:08+10:00
 draft: false
 weight: 4
-summary: 
+summary: Se pide utilizar Fusion 360 para preparar maquina de cortado con fresa para una silla y grabar el cortado.
 ---
 
 Se pide utilizar Fusion 360 para preparar maquina de cortado con fresa para una silla y grabar el cortado.

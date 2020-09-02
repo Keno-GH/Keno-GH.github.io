@@ -3,7 +3,7 @@ title: 'Encargo 01: Planimetrias'
 date: 2020-06-17T19:30:08+10:00
 draft: false
 weight: 4
-summary: 
+summary: Se pide editar y subir a página planimetrías de silla siguiendo los [tutoriales](https://tallerfabricacion.github.io/docs/tutoriales-planimetr%C3%ADas/)
 ---
 
 Se pide editar y subir a página planimetrías de silla siguiendo los [tutoriales](https://tallerfabricacion.github.io/docs/tutoriales-planimetr%C3%ADas/)
