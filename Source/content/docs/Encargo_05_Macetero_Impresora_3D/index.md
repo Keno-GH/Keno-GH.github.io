@@ -58,3 +58,4 @@ Elegimos esta forma porque los maceteros cumplen diversas funciones. En este cas
 ![Planimetría_1](/img/fresia/reciclado/11.png)
 
 ## Fuentes
+shorturl.at/eLRU8
