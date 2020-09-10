@@ -120,7 +120,7 @@ function init() {
     scene.add(markerPag1); // agregamos el grupo a la escena. 
 
     //Creamos nuestro marcador 
-    let markerControl = new THREEx.ArMarkerControls(arToolkitContext, markerPag1, {
+    let markerControl2 = new THREEx.ArMarkerControls(arToolkitContext, markerPag1, {
 
         type: 'pattern', patternUrl: 'data/pattern-patronpag1.patt',
     });
