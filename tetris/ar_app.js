@@ -111,7 +111,7 @@ function init() {
     scene.add(markerManual1); // agregamos el grupo a la escena. 
 
     //Creamos nuestro marcador 
-    let markerManual1 = new THREEx.ArMarkerControls(arToolkitContext, markerManual1, {
+    let markerControl = new THREEx.ArMarkerControls(arToolkitContext, markerManual1, {
 
         type: 'pattern', patternUrl: 'data/AR-Pattern.patt',
     });
@@ -127,23 +127,24 @@ function init() {
 
         let meshImagen = new THREE.Mesh(geo1,material1);
         markerManual1.add(meshImagen);
-    }
 
-    function update() {
-        //actualiza contenido de nuestra app AR
-        if (arToolkitSource.ready !== false) {
-            arToolkitContext.update(arToolkitSource.domElement);
-        }
+}
+
+function update() {
+    //actualiza contenido de nuestra app AR
+    if (arToolkitSource.ready !== false) {
+        arToolkitContext.update(arToolkitSource.domElement);
     }
-    
-    function render() {
-        renderer.render(scene, camera);
-    }
-    
-    function animate() {
-        requestAnimationFrame(animate);
-        deltaTime = clock.getDelta();
-        totalTime += deltaTime; // totalTime =  totalTime + deltaTime 
-        update();
-        render();
-    }
+}
+
+function render() {
+    renderer.render(scene, camera);
+}
+
+function animate() {
+    requestAnimationFrame(animate);
+    deltaTime = clock.getDelta();
+    totalTime += deltaTime; // totalTime =  totalTime + deltaTime 
+    update();
+    render();
+}
