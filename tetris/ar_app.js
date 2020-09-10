@@ -4,7 +4,7 @@ var scene, camera, renderer, clock, deltaTime, totalTime;
 
 var arToolkitSource, arToolkitContext;
 
-var mesh1, mesh2; meshImagen; meshImagen2; meshImagen3;
+var mesh1, mesh2, meshImagen, meshImagen2, meshImagen3;
 
 var markerManual1;
 
