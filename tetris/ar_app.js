@@ -120,15 +120,24 @@ function init() {
     //Creacion de geometrias - Imagenes
     ///////////////////////////////////////////////
 
-    let geo1 = new THREE.PlaneBufferGeometry(2,1.5,4,4);
+    /* let geo1 = new THREE.PlaneBufferGeometry(2,1.5,4,4);
         let loader2 = new THREE.TextureLoader();
         let textura3 = loader2.load('images/poster.jpg'); //Esta es la imagen que agregamos
         let material1 = new THREE.MeshBasicMaterial({map:textura3});
 
         let meshImagen = new THREE.Mesh(geo1,material1);
         meshImagen.rotation.x = -Math.PI/2;
-        markerManual1.add(meshImagen);
+        markerManual1.add(meshImagen); */
 
+    let geo1 = new THREE.PlaneBufferGeometry(2,2,4,4);
+        let loader2 = new THREE.TextureLoader();
+        let textura3 = loader2.load('images/texto3.png'); //Esta es la imagen que agregamos
+        let material1 = new THREE.MeshBasicMaterial({map:textura3});
+
+        let meshImagen = new THREE.Mesh(geo1,material1);
+        //meshImagen.rotation.x = -Math.PI/2;
+        markerManual1.add(meshImagen);
+    
 }
 
 function update() {
