@@ -1,13 +1,12 @@
+
 //declarar las variables de nuestra app. 
 var scene, camera, renderer, clock, deltaTime, totalTime;
 
 var arToolkitSource, arToolkitContext;
 
-var mesh1, mesh2;
+var mesh1, mesh2; meshImagen, meshImagen2, meshImagen3;
 
-var markerRoot1;
-
-var RhinoMesh, RhinoMesh2;
+var markerManual1;
 
 init(); // llamado de la funcion principal que se encarga de hacer casi  todo en la app
 animate();
@@ -108,179 +107,43 @@ function init() {
     //Marker setup
     /////////////////////////////////////////////////
 
-    markerRoot1 = new THREE.Group(); //creamos un grupo de objetos
-    scene.add(markerRoot1); // agregamos el grupo a la escena. 
+    markerManual1 = new THREE.Group(); //creamos un grupo de objetos
+    scene.add(markerManual1); // agregamos el grupo a la escena. 
 
     //Creamos nuestro marcador 
-    let markerControl = new THREEx.ArMarkerControls(arToolkitContext, markerRoot1, {
+    let markerManual1 = new THREEx.ArMarkerControls(arToolkitContext, markerManual1, {
 
         type: 'pattern', patternUrl: 'data/AR-Pattern.patt',
     });
 
-    /////////////////////////////////////////////////
-    //GEOMETRY
-    /////////////////////////////////////////////////
+    ////////////////////////////////////////////////
+    //Creacion de geometrias
+    ///////////////////////////////////////////////
 
-    //Creo una geometria cubo
-    let geo1 = new THREE.CubeGeometry(.75, .75, .75); // crear la plantilla
-    //creo material 
-    let material1 = new THREE.MeshLambertMaterial({ color: Math.random() * 0xffffff }); //creamos el material 
+    let geo1 = new THREE.PlaneBufferGeometry(1,1,4,4);
+        let loader2 = new THREE.TextureLoader();
+        let textura3 = loader2.load('images/poster.jpg');
+        let material1 = new THREE.MeshBasicMaterial({map:textura3});
 
-    //Creo una geometria 
-    let geo2 = new THREE.CubeGeometry(.75, .75, .75); // crear la plantilla
-    //creo material 
-    let material2 = new THREE.MeshLambertMaterial({ color: Math.random() * 0xffffff }); //creamos el material
-
-    //////////////MESH1//////////////////////////////////////////
-    //creo un mesh con la geometria y el material 
-    mesh1 = new THREE.Mesh(geo1, material1); //nuestro mesh 
-    //CAMBIO LA POSICION DE MI MESH 
-    mesh1.position.y = 0.5;
-    mesh1.position.z = -0.3;
-
-    //activo el recibir y proyectar sombras en otros meshes
-    mesh1.castShadow = true;
-    mesh1.receiveShadow = true;
-
-    //////////////MESH2//////////////////////////////////////////
-    //creo un mesh con la geometria y el material 
-    mesh2 = new THREE.Mesh(geo2, material2); //nuestro mesh 
-    //CAMBIO LA POSICION DE MI MESH 
-    mesh2.position.x = 0.75;
-    mesh2.position.y = 1.0;
-    //activo el recibir y proyectar sombras en otros meshes
-    mesh2.castShadow = true;
-    mesh2.receiveShadow = true;
-
-
-    //markerRoot1.add(mesh1); //esta linea agrega el cubo a mi grupo y finalmente se puede ver en la escena 
-    //markerRoot1.add(mesh2); //agregando el mesh 2 a mi escena
-
-    ////////////////////PISO////////////////
-    let floorGeometry = new THREE.PlaneGeometry(20, 20);
-    let floorMaterial = new THREE.ShadowMaterial();
-    floorMaterial.opacity = 0.3;
-
-    let floorMesh = new THREE.Mesh(floorGeometry, floorMaterial);
-
-    floorMesh.rotation.x = -Math.PI / 2;
-    floorMesh.receiveShadow = true;
-    markerRoot1.add(floorMesh);
-
-
-    /////// OBJ IMPORT/////////////////////
-    function onProgress(xhr) { console.log((xhr.loaded / xhr.total * 100) + "% loaded"); }
-    function onError(xhr) { console.log("ha ocurrido un error") };
-
-    //////OBJETO RHINO 1///////////////
-    new THREE.MTLLoader()
-        .setPath('data/models/')
-        .load('Tetris-C.mtl', function (materials) {
-            materials.preload();
-            new THREE.OBJLoader()
-                .setMaterials(materials)
-                .setPath('data/models/')
-                .load('Tetris-C.obj', function (group) {
-                    RhinoMesh = group.children[0];
-                    RhinoMesh.material.side = THREE.DoubleSide;
-                    RhinoMesh.scale.set(0.03, 0.03, 0.03);
-                    RhinoMesh.castShadow = true;
-                    RhinoMesh.receiveShadow = true;
-
-                    markerRoot1.add(RhinoMesh);
-                }, onProgress, onError);
-        });
-
-    //////OBJETO RHINO 2///////////////
-    new THREE.MTLLoader()
-        .setPath('data/models/')
-        .load('Tetris-InvS.mtl', function (materials) {
-            materials.preload();
-            new THREE.OBJLoader()
-                .setMaterials(materials)
-                .setPath('data/models/')
-                .load('Tetris-InvS.obj', function (group) {
-                    RhinoMesh2 = group.children[0];
-                    RhinoMesh2.material.side = THREE.DoubleSide;
-                    RhinoMesh2.scale.set(0.03, 0.03, 0.03);
-                    RhinoMesh2.castShadow = true;
-                    RhinoMesh2.receiveShadow = true;
-
-                    markerRoot1.add(RhinoMesh2);
-                }, onProgress, onError);
-        });
-    
-     //////OBJETO RHINO 3///////////////
-     new THREE.MTLLoader()
-     .setPath('data/models/')
-     .load('Tetris-L.mtl', function (materials) {
-         materials.preload();
-         new THREE.OBJLoader()
-             .setMaterials(materials)
-             .setPath('data/models/')
-             .load('Tetris-L.obj', function (group) {
-                 RhinoMesh3 = group.children[0];
-                 RhinoMesh3.material.side = THREE.DoubleSide;
-                 RhinoMesh3.scale.set(0.03, 0.03, 0.03);
-                 RhinoMesh3.castShadow = true;
-                 RhinoMesh3.receiveShadow = true;
-
-                 markerRoot1.add(RhinoMesh3);
-             }, onProgress, onError);
-     });
-     new THREE.MTLLoader()
-     .setPath('data/models/')
-     .load('Tetris-S.mtl', function (materials) {
-         materials.preload();
-         new THREE.OBJLoader()
-             .setMaterials(materials)
-             .setPath('data/models/')
-             .load('Tetris-S.obj', function (group) {
-                 RhinoMesh4 = group.children[0];
-                 RhinoMesh4.material.side = THREE.DoubleSide;
-                 RhinoMesh4.scale.set(0.03, 0.03, 0.03);
-                 RhinoMesh4.castShadow = true;
-                 RhinoMesh4.receiveShadow = true;
-
-                 markerRoot1.add(RhinoMesh4);
-             }, onProgress, onError);
-     });
-     new THREE.MTLLoader()
-        .setPath('data/models/')
-        .load('Tetris-T.mtl', function (materials) {
-            materials.preload();
-            new THREE.OBJLoader()
-                .setMaterials(materials)
-                .setPath('data/models/')
-                .load('Tetris-T.obj', function (group) {
-                    RhinoMesh5 = group.children[0];
-                    RhinoMesh5.material.side = THREE.DoubleSide;
-                    RhinoMesh5.scale.set(0.03, 0.03, 0.03);
-                    RhinoMesh5.castShadow = true;
-                    RhinoMesh5.receiveShadow = true;
-
-                    markerRoot1.add(RhinoMesh5);
-                }, onProgress, onError);
-        });
-
-
-}
-
-function update() {
-    //actualiza contenido de nuestra app AR
-    if (arToolkitSource.ready !== false) {
-        arToolkitContext.update(arToolkitSource.domElement);
+        let meshImagen = new THREE.Mesh(geo1,material1);
+        markerManual1.add(meshImagen);
     }
-}
 
-function render() {
-    renderer.render(scene, camera);
-}
-
-function animate() {
-    requestAnimationFrame(animate);
-    deltaTime = clock.getDelta();
-    totalTime += deltaTime; // totalTime =  totalTime + deltaTime 
-    update();
-    render();
-}
+    function update() {
+        //actualiza contenido de nuestra app AR
+        if (arToolkitSource.ready !== false) {
+            arToolkitContext.update(arToolkitSource.domElement);
+        }
+    }
+    
+    function render() {
+        renderer.render(scene, camera);
+    }
+    
+    function animate() {
+        requestAnimationFrame(animate);
+        deltaTime = clock.getDelta();
+        totalTime += deltaTime; // totalTime =  totalTime + deltaTime 
+        update();
+        render();
+    }
