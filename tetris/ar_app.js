@@ -140,7 +140,7 @@ function init() {
 
     let geo1 = new THREE.PlaneBufferGeometry(2,2,4,4);
         let loader1 = new THREE.TextureLoader();
-        let textura1 = loader1.load('images/texto3.png');
+        let textura1 = loader1.load('images/texto1.png');
         let material1 = new THREE.MeshBasicMaterial({map:textura1});
 
         let meshImagen = new THREE.Mesh(geo1,material1);
