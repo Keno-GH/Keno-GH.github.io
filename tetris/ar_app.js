@@ -120,7 +120,7 @@ function init() {
     //Creacion de geometrias - Imagenes
     ///////////////////////////////////////////////
 
-    let geo1 = new THREE.PlaneBufferGeometry(1,1,4,4);
+    let geo1 = new THREE.PlaneBufferGeometry(1,2,4,4);
         let loader2 = new THREE.TextureLoader();
         let textura3 = loader2.load('images/poster.jpg'); //Esta es la imagen que agregamos
         let material1 = new THREE.MeshBasicMaterial({map:textura3});
