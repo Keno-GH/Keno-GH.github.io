@@ -139,21 +139,21 @@ function init() {
         markerManual1.add(meshImagen); */
 
     let geo1 = new THREE.PlaneBufferGeometry(2,2,4,4);
-        let loader2 = new THREE.TextureLoader();
-        let textura3 = loader2.load('images/texto3.png');
-        let material1 = new THREE.MeshBasicMaterial({map:textura3});
+        let loader1 = new THREE.TextureLoader();
+        let textura1 = loader1.load('images/texto3.png');
+        let material1 = new THREE.MeshBasicMaterial({map:textura1});
 
         let meshImagen = new THREE.Mesh(geo1,material1);
         markerManual1.add(meshImagen);
 
-    let geo1 = new THREE.PlaneBufferGeometry(2,1.5,4,4);
+    let geo2 = new THREE.PlaneBufferGeometry(2,1.5,4,4);
         let loader2 = new THREE.TextureLoader();
-        let textura3 = loader2.load('images/pag1'); //Esta es la imagen que agregamos
-        let material1 = new THREE.MeshBasicMaterial({map:textura3});
+        let textura2 = loader2.load('images/pag1'); //Esta es la imagen que agregamos
+        let material2 = new THREE.MeshBasicMaterial({map:textura2});
 
-        let meshImagen = new THREE.Mesh(geo1,material1);
-        meshImagen.rotation.x = -Math.PI/2;
-        markerPag1.add(meshImagen);
+        let meshImagen2 = new THREE.Mesh(geo1,material2);
+        meshImagen2.rotation.x = -Math.PI/2;
+        markerPag1.add(meshImagen2);
     
 }
 
