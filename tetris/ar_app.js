@@ -4,9 +4,7 @@ var scene, camera, renderer, clock, deltaTime, totalTime;
 
 var arToolkitSource, arToolkitContext;
 
-var mesh1, mesh2, meshImagen0, meshImagen, meshImagen2, meshImagen3, meshImagen4, meshImagen5, meshImagen6;
-
-var markerManual1;
+var mesh1, mesh2, meshImagen0, meshImagen, meshImagen2, meshImagen3, meshImagen4, meshImagen5, meshImagen6, meshTxt1, meshTxt2, meshTxt3, meshTxt4, meshLogo;
 
 init(); // llamado de la funcion principal que se encarga de hacer casi  todo en la app
 animate();
@@ -150,6 +148,42 @@ function init() {
         type: 'pattern', patternUrl: 'data/pattern-patronpag5.patt',
     });
 
+    markerTxt1 = new THREE.Group();
+    scene.add(markerTxt1);
+
+    let markerControl6 = new THREEx.ArMarkerControls(arToolkitContext, markerTxt1, {
+        type: 'pattern', patternUrl: 'data/pattern-patrontxt1.patt',
+    });
+
+    markerTxt2 = new THREE.Group();
+    scene.add(markerTxt2);
+
+    let markerControl7 = new THREEx.ArMarkerControls(arToolkitContext, markerTxt2, {
+        type: 'pattern', patternUrl: 'data/pattern-patrontxt2.patt',
+    });
+
+    markerTxt3 = new THREE.Group();
+    scene.add(markerTxt3);
+
+    let markerControl8 = new THREEx.ArMarkerControls(arToolkitContext, markerTxt3, {
+        type: 'pattern', patternUrl: 'data/pattern-patrontxt3.patt',
+    });
+
+    markerTxt4 = new THREE.Group();
+    scene.add(markerTxt4);
+
+    let markerControl9 = new THREEx.ArMarkerControls(arToolkitContext, markerTxt4, {
+        type: 'pattern', patternUrl: 'data/pattern-patrontxt4.patt',
+    });
+
+    markerLogo = new THREE.Group();
+    scene.add(markerLogo);
+
+    let markerControl10 = new THREEx.ArMarkerControls(arToolkitContext, markerLogo, {
+        type: 'pattern', patternUrl: 'data/pattern-patronlogo.patt',
+    });
+
+
     ////////////////////////////////////////////////
     //Creacion de geometrias - Imagenes
     ///////////////////////////////////////////////
@@ -207,6 +241,51 @@ function init() {
         let meshImagen5 = new THREE.Mesh(geo5,material5);
         meshImagen5.rotation.x = -Math.PI/2;
         markerPag5.add(meshImagen5);
+
+    let geo6 = new THREE.PlaneBufferGeometry(5,3,4,4);
+        let loader6 = new THREE.TextureLoader();
+        let textura6 = loader6.load('images/texto1.png');
+        let material6 = new THREE.MeshBasicMaterial({map:textura6});
+
+        let meshTxt1 = new THREE.Mesh(geo6,material6);
+        meshTxt1.rotation.x = -Math.PI/2;
+        markerTxt1.add(meshTxt1);
+
+    let geo7 = new THREE.PlaneBufferGeometry(5,3,4,4);
+        let loader7 = new THREE.TextureLoader();
+        let textura7 = loader7.load('images/texto2.png');
+        let material7 = new THREE.MeshBasicMaterial({map:textura7});
+
+        let meshTxt2 = new THREE.Mesh(geo7,material7);
+        meshTxt2.rotation.x = -Math.PI/2;
+        markerTxt2.add(meshTxt2);
+
+    let geo8 = new THREE.PlaneBufferGeometry(5,3,4,4);
+        let loader8 = new THREE.TextureLoader();
+        let textura8 = loader8.load('images/texto3.png');
+        let material8 = new THREE.MeshBasicMaterial({map:textura8});
+
+        let meshTxt3 = new THREE.Mesh(geo8,material8);
+        meshTxt3.rotation.x = -Math.PI/2;
+        markerTxt3.add(meshTxt3);
+
+    let geo9 = new THREE.PlaneBufferGeometry(5,3,4,4);
+        let loader9 = new THREE.TextureLoader();
+        let textura9 = loader9.load('images/texto4.png');
+        let material9 = new THREE.MeshBasicMaterial({map:textura9});
+
+        let meshTxt4 = new THREE.Mesh(geo9,material9);
+        meshTxt4.rotation.x = -Math.PI/2;
+        markerTxt4.add(meshTxt4);
+
+    let geo10 = new THREE.PlaneBufferGeometry(4,4.5,4,4);
+        let loader10 = new THREE.TextureLoader();
+        let textura10 = loader10.load('images/logo.jpg');
+        let material10 = new THREE.MeshBasicMaterial({map:textura10});
+
+        let meshLogo = new THREE.Mesh(geo10,material10);
+        meshLogo.rotation.x = -Math.PI/2;
+        markerLogo.add(meshLogo);
 
 }
 
