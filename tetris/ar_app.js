@@ -154,7 +154,7 @@ function init() {
     //Creacion de geometrias - Imagenes
     ///////////////////////////////////////////////
 
-    let geo0 = new THREE.PlaneBufferGeometry(2,1,4,4);
+    let geo0 = new THREE.PlaneBufferGeometry(1.5,2,4,4);
         let loader0 = new THREE.TextureLoader();
         let textura0 = loader0.load('images/pag0.png');
         let material0 = new THREE.MeshBasicMaterial({map:textura0});
@@ -163,7 +163,7 @@ function init() {
         meshImagen0.rotation.x = -Math.PI/2;
         markerPag0.add(meshImagen0);
 
-    let geo1 = new THREE.PlaneBufferGeometry(2,1,4,4);
+    let geo1 = new THREE.PlaneBufferGeometry(1.5,2,4,4);
         let loader1 = new THREE.TextureLoader();
         let textura1 = loader1.load('images/pag1.png');
         let material1 = new THREE.MeshBasicMaterial({map:textura1});
@@ -172,7 +172,7 @@ function init() {
         meshImagen.rotation.x = -Math.PI/2;
         markerPag1.add(meshImagen);
 
-    let geo2 = new THREE.PlaneBufferGeometry(2,1,4,4);
+    let geo2 = new THREE.PlaneBufferGeometry(1.5,2,4,4);
         let loader2 = new THREE.TextureLoader();
         let textura2 = loader2.load('images/pag2.png');
         let material2 = new THREE.MeshBasicMaterial({map:textura2});
@@ -181,7 +181,7 @@ function init() {
         meshImagen2.rotation.x = -Math.PI/2;
         markerPag2.add(meshImagen2);
 
-    let geo3 = new THREE.PlaneBufferGeometry(2,1,4,4);
+    let geo3 = new THREE.PlaneBufferGeometry(1.5,2,4,4);
         let loader3 = new THREE.TextureLoader();
         let textura3 = loader3.load('images/pag3.png');
         let material3 = new THREE.MeshBasicMaterial({map:textura3});
@@ -190,7 +190,7 @@ function init() {
         meshImagen3.rotation.x = -Math.PI/2;
         markerPag3.add(meshImagen3);
     
-    let geo4 = new THREE.PlaneBufferGeometry(2,1,4,4);
+    let geo4 = new THREE.PlaneBufferGeometry(1.5,2,4,4);
         let loader4 = new THREE.TextureLoader();
         let textura4 = loader4.load('images/pag4.png');
         let material4 = new THREE.MeshBasicMaterial({map:textura4});
@@ -199,7 +199,7 @@ function init() {
         meshImagen4.rotation.x = -Math.PI/2;
         markerPag4.add(meshImagen4);
 
-    let geo5 = new THREE.PlaneBufferGeometry(2,1,4,4);
+    let geo5 = new THREE.PlaneBufferGeometry(1.5,2,4,4);
         let loader5 = new THREE.TextureLoader();
         let textura5 = loader5.load('images/pag5.png');
         let material5 = new THREE.MeshBasicMaterial({map:textura5});
