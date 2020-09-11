@@ -119,7 +119,7 @@ function init() {
     scene.add(markerPag1);
 
     let markerControl = new THREEx.ArMarkerControls(arToolkitContext, markerPag1, {
-        type: 'pattern', patternUrl: 'data/patten-patronpag1.patt',
+        type: 'pattern', patternUrl: 'data/pattern-patronpag1.patt',
     });
 
     markerPag2 = new THREE.Group();
