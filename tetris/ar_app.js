@@ -181,6 +181,13 @@ function init() {
         type: 'pattern', patternUrl: 'data/pattern-patronlogo.patt',
     });
 
+    markerVideo = new THREE.Group();
+    scene.add(markerVideo);
+
+    let markerControl11 = new THREEx.ArMarkerControls(arToolkitContext, markerVideo, {
+        type: 'pattern', patternUrl: 'data/pattern-v1.patt',
+    });
+
 
     ////////////////////////////////////////////////
     //Creacion de geometrias - Imagenes
@@ -285,6 +292,29 @@ function init() {
         meshLogo.rotation.x = -Math.PI/2;
         markerLogo.add(meshLogo);
 
+    let geoVideo = new THREE.PlaneBufferGeometry(2,2,4,4); //molde geometria
+
+        let video =  document.getElementById('video');
+    
+        let texture =  new THREE.VideoTexture(video);
+        texture.minFilter = THREE.LinearFilter;
+        texture.magFilter= THREE.LinearFilter;
+        texture.format =  THREE.RGBFormat;
+
+        let material11 = new THREE.MeshBasicMaterial(
+            {
+
+                map:texture
+        }
+        );
+
+        meshVideo = new THREE.Mesh(geoVideo, material11);
+        meshVideo.rotation.x = -Math.PI/2;
+        meshVideo.rotation.z = -Math.PI;
+
+        markerVideo.add(meshVideo);
+
+
 }
 
 function update() {
@@ -305,4 +335,10 @@ function animate() {
     totalTime += deltaTime; // totalTime =  totalTime + deltaTime 
     update();
     render();
+    video.play();
+}
+
+function playVideo(){
+	let video = document.getElementById('video');
+	video.play();
 }
