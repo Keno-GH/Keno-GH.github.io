@@ -4,8 +4,6 @@ var scene, camera, renderer, clock, deltaTime, totalTime;
 
 var arToolkitSource, arToolkitContext;
 
-var mesh1, mesh2, meshImagen0, meshImagen, meshImagen2, meshImagen3, meshImagen4, meshImagen5, meshImagen6, meshTxt1, meshTxt2, meshTxt3, meshTxt4, meshLogo;
-
 init(); // llamado de la funcion principal que se encarga de hacer casi  todo en la app
 animate();
 
