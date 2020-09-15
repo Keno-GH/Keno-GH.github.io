@@ -43,6 +43,16 @@
   </url>
   
   <url>
+    <loc>https://keno-gh.github.io/docs/examen_parte_1/</loc>
+    <lastmod>2020-06-17T19:30:08+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://keno-gh.github.io/docs/examen_parte_2/</loc>
+    <lastmod>2020-06-17T19:30:08+10:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://keno-gh.github.io/</loc>
     <lastmod>2020-06-17T19:30:08+10:00</lastmod>
   </url>
@@ -53,10 +63,6 @@
   
   <url>
     <loc>https://keno-gh.github.io/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>https://keno-gh.github.io/tetris/</loc>
   </url>
   
 </urlset>

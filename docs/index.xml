@@ -74,5 +74,23 @@
       <description>En este encargo grupal creamos un molde imprimible para hacer maceteros con materiales organicos.</description>
     </item>
     
+    <item>
+      <title>Examen Parte 1: Experimentación material</title>
+      <link>https://keno-gh.github.io/docs/examen_parte_1/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://keno-gh.github.io/docs/examen_parte_1/</guid>
+      <description>Proceso de experimentación material del grupo a lo largo del trimestre. Materiales utilizados, resultados y sus materialidades. Selección de los mejores materiales y experimentación final con molde creado.</description>
+    </item>
+    
+    <item>
+      <title>Examen Parte 2: Producto &#43;Z</title>
+      <link>https://keno-gh.github.io/docs/examen_parte_2/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://keno-gh.github.io/docs/examen_parte_2/</guid>
+      <description>Trabajo en conjunto con Daniel Sánchez y Rodrigo Calderon</description>
+    </item>
+    
   </channel>
 </rss>
